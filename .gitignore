@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+
+# === Ignore large data & models ===
+fine-tuned_models/
+sbs_datasets/
+sbs_datasets_processed/
+wandb/
+*.arrow
+*.safetensors
+*.pt
+*.bin
+*.tfevents
+*.log
